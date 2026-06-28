@@ -7,6 +7,8 @@ const API_URL =
   import.meta.env.VITE_BACKEND_URL ||
   "http://localhost:5000";
 
+  console.log("API_URL:", API_URL);
+console.log("VITE_BACKEND_URL:", import.meta.env.VITE_BACKEND_URL);
 export const ChatProvider = ({ children }) => {
   const [messages, setMessages] = useState([
     {
