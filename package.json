@@ -1,1 +1,18 @@
-{"type":"module","scripts":{"start":"node server/server.js","dev":"nodemon server/server.js"},"dependencies":{"@google/genai":"^2.9.0","@tailwindcss/vite":"^4.3.0","cors":"^2.8.6","dotenv":"^17.4.2","express":"^5.2.1","init":"^0.1.2","mongoose":"^9.7.1","nodemon":"^3.1.14","tailwindcss":"^4.3.0"}}
+{
+  "type": "module",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.9.0",
+    "@tailwindcss/vite": "^4.3.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "init": "^0.1.2",
+    "mongoose": "^9.7.1",
+    "nodemon": "^3.1.14",
+    "tailwindcss": "^4.3.0"
+  }
+}
