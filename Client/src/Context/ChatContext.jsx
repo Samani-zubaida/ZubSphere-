@@ -4,7 +4,7 @@ import axios from "axios";
 const ChatContext = createContext();
 
 const API_URL =
-  import.meta.env.VITE_API_URL ||
+  import.meta.env.VITE_BACKEND_URL ||
   "http://localhost:5000";
 
 export const ChatProvider = ({ children }) => {
