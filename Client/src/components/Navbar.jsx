@@ -179,13 +179,13 @@ const Navbar = () => {
 
 
            
-            <a
-              href="/contact-me"
-              onClick={() => setMenuOpen(false)}
-              className="text-slate-700 font-medium"
-            >
-              Contact
-            </a>
+            <Link
+  to="/chat"
+  onClick={() => setMenuOpen(false)}
+  className="text-slate-700 font-medium"
+>
+  AI Assistant
+</Link>
 
             {/* Mobile Buttons */}
 
