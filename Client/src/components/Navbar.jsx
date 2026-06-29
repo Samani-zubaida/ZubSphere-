@@ -165,7 +165,7 @@ const Navbar = () => {
               onClick={() => setMenuOpen(false)}
               className="text-slate-700 font-medium"
             >
-              AI Assistant
+              ZubSphere AI
             </Link>
 
             {/* Mobile Buttons */}
