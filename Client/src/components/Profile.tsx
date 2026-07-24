@@ -30,35 +30,15 @@ const Profile = () => {
         >
           <h2
             style={{ fontFamily: "'General Sans', sans-serif" }}
-            className="text-[clamp(2.75rem,10vw,4rem)] font-black text-white leading-[1.05] tracking-tight"
+            className="text-[clamp(2.75rem,10vw,4rem)] font-black text-[#00D4FF] leading-[1.05] tracking-tight"
           >
             Hey!
           </h2>
           <h3 className="text-[clamp(1.5rem,6vw,2.25rem)] font-black text-white/40 leading-[1.05] tracking-tight">
-            I build with code
+            I,m Samani Zubaida
           </h3>
         </motion.div>
 
-        {/* Portrait */}
-        <motion.div
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: false, amount: 0.3 }}
-          variants={fadeIn}
-          transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex items-center justify-center"
-        >
-          <div className="relative w-full max-w-[240px] xs:max-w-[260px] sm:max-w-[300px] aspect-[3/4] rounded-2xl overflow-hidden flex items-center justify-center">
-            <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/5 via-transparent to-purple-500/5" />
-            <div className="text-white/20 text-xs sm:text-sm font-mono tracking-widest uppercase">
-              Portrait
-            </div>
-            <div className="absolute top-3 left-3 w-5 h-5 border-t border-l border-cyan-400/20 rounded-tl-sm" />
-            <div className="absolute top-3 right-3 w-5 h-5 border-t border-r border-cyan-400/20 rounded-tr-sm" />
-            <div className="absolute bottom-3 left-3 w-5 h-5 border-b border-l border-cyan-400/20 rounded-bl-sm" />
-            <div className="absolute bottom-3 right-3 w-5 h-5 border-b border-r border-cyan-400/20 rounded-br-sm" />
-          </div>
-        </motion.div>
 
         <motion.p
           initial="hidden"
@@ -69,7 +49,7 @@ const Profile = () => {
           className="text-white/70 text-[clamp(1.05rem,3.4vw,1.2rem)] leading-relaxed text-center sm:text-left max-w-md mx-auto sm:mx-0"
         >
           I'm a Computer Engineering student with a strong foundation in
-          Data Structures & Algorithms, Java, Python, and OOP. Skilled in
+          Data Structures & Algorithms, Operating System, Rest API's, DBMS, CN, OOP. Skilled in
           Machine Learning, AI fundamentals, and full-stack development.
         </motion.p>
 
@@ -95,7 +75,7 @@ const Profile = () => {
                   background: "#00D4FF",
                   boxShadow: "0 0 0 3px rgba(0,212,255,0.12)",
                 }}
-              />
+              /> 
               <span className="inline-block text-[#00D4FF]/70 text-[clamp(0.7rem,2.5vw,0.8rem)] font-mono tracking-wide uppercase mb-1">
                 {entry.period}
               </span>
@@ -114,9 +94,6 @@ const Profile = () => {
           transition={{ duration: 0.7, ease: "easeOut" }}
           className="text-center sm:text-left"
         >
-          <h3 className="text-[clamp(1.5rem,6vw,2rem)] font-black text-white/85 leading-[1.05] tracking-tight mb-3">
-            Skills that ship
-          </h3>
           <div className="w-full flex justify-center sm:justify-start">
             <SkillsFan items={skills} />
           </div>
@@ -137,7 +114,7 @@ const Profile = () => {
         >
           <h2
             style={{ fontFamily: "'General Sans', sans-serif" }}
-            className="text-[clamp(3rem,5vw,4.5rem)] font-black text-white leading-[1.05] tracking-tight"
+            className="text-[clamp(3rem,5vw,4.5rem)] font-black text-[#00D4FF] leading-[1.05] tracking-tight"
           >
             Hey!
           </h2>
@@ -156,8 +133,8 @@ const Profile = () => {
           className="absolute top-1/2 -translate-y-1/2 left-10 xl:left-16 max-w-[260px] xl:max-w-[320px] text-white/60 text-[clamp(0.95rem,1.15vw,1.1rem)] leading-relaxed z-10"
         >
           I'm a Computer Engineering student with a strong foundation in
-          Data Structures & Algorithms, Java, Python, and OOP — skilled in
-          Machine Learning and full-stack development.
+          Data Structures & Algorithms, Operating System, Rest API's, DBMS, CN, OOP. Skilled in
+          Machine Learning, AI fundamentals, and full-stack development.
         </motion.p>
 
         {/* Right-mid — quick facts */}
