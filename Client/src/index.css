@@ -1,1 +1,28 @@
+@import url('https://api.fontshare.com/v2/css?f[]=general-sans@700,800,900&display=swap');
 @import "tailwindcss";
+
+/* rest of your CSS below */
+
+html,
+body,
+#root {
+  overscroll-behavior-y: none; /* kills the mobile rubber-band bounce
+                                   so route-swipe gestures feel like a
+                                   native app, not a webpage */
+  height: 100%;
+  background-color: #0a0a0a; /* prevents any white flash at the
+                                 edges while a page is transformed
+                                 during the route transition */
+}
+
+/* Hides the scrollbar on the full-screen route container while still
+   allowing it to scroll internally when a page's content is taller
+   than the viewport (see useScrollNavigation's boundary detection). */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
