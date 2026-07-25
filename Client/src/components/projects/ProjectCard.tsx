@@ -10,6 +10,7 @@ interface ProjectCardProps {
   isMobile: boolean;
   accent: string;
   onLiveClick: () => void;
+  onDemoClick: () => void;
 }
 
 const ProjectCard = ({
@@ -18,6 +19,7 @@ const ProjectCard = ({
   isMobile,
   accent,
   onLiveClick,
+  onDemoClick,
 }: ProjectCardProps) => {
   const cardRef = useRef<HTMLDivElement>(null);
   const [isHovered, setIsHovered] = useState(false);
@@ -140,7 +142,9 @@ const ProjectCard = ({
             border: `1px solid ${isHovered ? accent + "40" : "rgba(255,255,255,0.06)"}`,
             color: isHovered ? accent : "rgba(255,255,255,0.4)",
             transform: isHovered ? "translate(2px, -2px)" : "translate(0, 0)",
+            
           }}
+          onClick={onDemoClick}
         >
           <FiArrowUpRight size={isMobile ? 16 : 18} />
         </div>

@@ -22,8 +22,8 @@ export const projects: Project[] = [
     statusColor: "#facc15",
     accent: "#00D4FF",
     image: "waypoint.png",
-    demolink: "http/",
-    codelink: "http",
+    demolink: "https://way-point-blush.vercel.app/",
+    codelink: "https://github.com/Samani-zubaida/WayPoint",
   },
   {
     name: "ChitChat",
@@ -61,7 +61,7 @@ export const projects: Project[] = [
     statusColor: "#38bdf8",
     accent: "#FFD166",
     image: "codenova.png",
-    demolink: "http",
-    codelink: "http",
+    demolink: "/",
+    codelink: "https://github.com/samaniyusra/Code_Nova",
   },
 ];

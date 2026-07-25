@@ -159,6 +159,7 @@ const Projects = () => {
             isMobile={isMobile}
             accent={p.accent}
             onLiveClick={() => window.open(p.demolink, "_blank", "noopener,noreferrer")}
+            onDemoClick={()=> window.open(p.codelink,"_blank", "noopener,noreferrer")}
           />
         </div>
 
