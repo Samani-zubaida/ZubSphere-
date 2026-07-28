@@ -12,14 +12,6 @@ export interface Contact {
 // here is just a fallback.
 export const contacts: Contact[] = [
   {
-    id: "whatsapp",
-    title: "WhatsApp",
-    value: "+91 8850208655",
-    link: "https://wa.me/918850208655?text=Hi%20Zubaida,%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect.",
-    icon: "whatsapp",
-    color: "#25D366",
-  },
-  {
     id: "email",
     title: "Email",
     value: "samanizubaida48@gmail.com",
@@ -42,14 +34,5 @@ export const contacts: Contact[] = [
     link: "https://github.com/Samani-zubaida",
     icon: "github",
     color: "#F5F5F5",
-  },
-  {
-    id: "instagram",
-    title: "Instagram",
-    // TODO: replace with your real handle/link
-    value: "_s.zubaida_",
-    link: "https://www.instagram.com/_s.zubaida_/",
-    icon: "instagram",
-    color: "#E1306C",
   },
 ];
